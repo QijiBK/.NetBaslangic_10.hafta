@@ -1,5 +1,8 @@
-﻿
-$(".nav-item").click(function (event) {
-    $(".nav-item").removeClass("active")
-        $(this).addClass("active")
-   })
+﻿$(() => {
+    $('li a').each(function () {
+
+        if ($(this).attr("href") == window.location.pathname) {
+            $(this).addClass("active")
+        }
+    })
+})
