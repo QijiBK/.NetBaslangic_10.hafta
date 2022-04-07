@@ -30,6 +30,7 @@ namespace _07_DersBlogSitesi
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapDefaultControllerRoute();
+
             });
         }
     }

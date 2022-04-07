@@ -34,3 +34,5 @@ C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\07_DersBlogSitesi\obj\Debug\net5.0\07_DersBlogSitesi.genruntimeconfig.cache
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\07_DersBlogSitesi\obj\Debug\net5.0\07_DersBlogSitesi.csproj.CopyComplete
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\07_DersBlogSitesi\obj\Debug\net5.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\07_DersBlogSitesi\obj\Debug\net5.0\Razor\Views\Lesson\Index.cshtml.g.cs
+C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\07_DersBlogSitesi\07_DersBlogSitesi\obj\Debug\net5.0\Razor\Views\Home\getCards.cshtml.g.cs

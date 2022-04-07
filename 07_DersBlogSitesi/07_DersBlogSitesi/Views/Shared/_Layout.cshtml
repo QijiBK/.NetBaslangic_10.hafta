@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
     <link rel="stylesheet" href="~/css/style.css">
-    <title>Ders Blog Site</title>
+    <title>@ViewData["Title"] -Ders Blog Site</title>
 </head>
 <body>
     <header>
@@ -29,6 +29,8 @@
                                 Dersler
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="Lesson">Tüm Dersler</a></li>
+                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="#">Html</a></li>
                                 <li><a class="dropdown-item" href="#">Css</a></li>
                                 <li><a class="dropdown-item" href="#">Bootstrap</a></li>

@@ -1,0 +1,29 @@
+﻿@model List<_07_DersBlogSitesi.Models.Lesson>
+@*<ul>
+        @foreach (var lesson in Model)
+        {
+            <li>@lesson.LessonName</li>
+        }
+    </ul>*@
+@{ ViewData["Title"] = "Tüm Dersler";}
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>Lesson Name</td>
+            <td>Categorty</td>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var lesson in Model)
+        {
+            <tr>
+                <td>@lesson.ID</td>
+                <td>@lesson.LessonName</td>
+                <td>@lesson.Category</td>
+            </tr>
+        }
+    </tbody>
+
+
+</table>
