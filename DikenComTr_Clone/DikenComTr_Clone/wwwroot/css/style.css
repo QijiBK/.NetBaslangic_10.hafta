@@ -16,15 +16,15 @@ body{
 
 }
 .nav-content ul li a{
-    width: 100%;
+    width: 100% !important;
     text-decoration: none;
-    color: black;
-    font-weight: 700;
-    padding: 18px 15px;
+    color: black !important;
+    font-weight: 700 !important;
+    padding: 18px 15px !important;
 }
 .nav-content ul li a:hover{
-    background-color: black;
-    color: white;
+    background-color: black !important;
+    color: white !important;
 }
 .slider-button {
     border-radius: 100%;
@@ -159,5 +159,6 @@ head{
 .footer-text p{
     color: white;
 }
+
 
 
