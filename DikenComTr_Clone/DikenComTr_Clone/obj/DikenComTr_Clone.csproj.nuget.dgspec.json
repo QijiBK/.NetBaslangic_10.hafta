@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\korkk\\OneDrive\\Belgeler\\GitHub\\.NetBaslangic_10.hafta\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj": {}
+    "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj": {}
   },
   "projects": {
-    "C:\\Users\\korkk\\OneDrive\\Belgeler\\GitHub\\.NetBaslangic_10.hafta\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj": {
+    "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\korkk\\OneDrive\\Belgeler\\GitHub\\.NetBaslangic_10.hafta\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj",
+        "projectUniqueName": "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj",
         "projectName": "DikenComTr_Clone",
-        "projectPath": "C:\\Users\\korkk\\OneDrive\\Belgeler\\GitHub\\.NetBaslangic_10.hafta\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj",
-        "packagesPath": "C:\\Users\\korkk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\korkk\\OneDrive\\Belgeler\\GitHub\\.NetBaslangic_10.hafta\\DikenComTr_Clone\\DikenComTr_Clone\\obj\\",
+        "projectPath": "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\DikenComTr_Clone\\DikenComTr_Clone\\DikenComTr_Clone.csproj",
+        "packagesPath": "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\DikenComTr_Clone\\DikenComTr_Clone\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\korkk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Web ve Mobil Öğle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

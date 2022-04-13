@@ -5,10 +5,12 @@
 }
 body{
     background-color: #f6f5f2;
+    
 }
 .nav-content ul{
     list-style-type: none;
     border: 1px solid #e3e3e3;
+    padding:0;
 }
 .nav-content ul li{
    border-right: 1px solid #e3e3e3;
@@ -16,15 +18,14 @@ body{
 
 }
 .nav-content ul li a{
-    width: 100% !important;
     text-decoration: none;
-    color: black !important;
-    font-weight: 700 !important;
-    padding: 18px 15px !important;
+    color: black ;
+    font-weight: 700 ;
+    padding: 18px 15px ;
 }
 .nav-content ul li a:hover{
-    background-color: black !important;
-    color: white !important;
+    background-color: black ;
+    color: white ;
 }
 .slider-button {
     border-radius: 100%;
@@ -159,6 +160,42 @@ head{
 .footer-text p{
     color: white;
 }
+label{
+    display:none;
+}
 
+@media (max-width:768px) {
+    .nav-content ul{
+        flex-wrap:wrap;
+        flex-direction:column;
+    }
+    .nav-content ul li a{
+        padding: 6px 12px;
+    }
+        .nav-content ul li{
+            justify-content:center;
+        }
+        .nav-content{
+            display:none;
+        }
+        label{
+            display:initial;
+            cursor:pointer;
+        }
+        #menu-btn-div{
+            display:flex;
+            justify-content:center;
+        }
+        
+    .nav-big-content #checkBox:checked ~ .nav-content {
+        display: block;
+    }
+
+}
+@media (min-width:768px){
+    .nav-content{
+        display:block !important;
+    }
+}
 
 
