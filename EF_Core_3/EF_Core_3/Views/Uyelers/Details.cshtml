@@ -1,0 +1,85 @@
+﻿@model EF_Core_3.Models.Uyeler
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Uyeler</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            Ad Soyad
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AdSoyad)
+        </dd>
+        <dt class = "col-sm-2">
+            Cinsiyet
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cinsiyet)
+        </dd>
+        <dt class = "col-sm-2">
+            Doğum Tarihi
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DogumTarihi)
+        </dd>
+        <dt class = "col-sm-2">
+            Telefon
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tel)
+        </dd>
+        <dt class = "col-sm-2">
+            Mail
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mail)
+        </dd>
+        <dt class = "col-sm-2">
+            Uyelik Tarihi
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UyelikTarihi)
+        </dd>
+        <dt class = "col-sm-2">
+            Uyelik Tipi
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UyelikTipi)
+        </dd>
+        <dt class = "col-sm-2">
+            Tc No
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TcNo)
+        </dd>
+        <dt class = "col-sm-2">
+            Meslek
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Meslek)
+        </dd>
+        <dt class = "col-sm-2">
+            Eğitim Durumu
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EgitimDurumu)
+        </dd>
+        <dt class = "col-sm-2">
+            Ceza Durumu
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CezaDurumu)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Düzenle</a> |
+    <a asp-action="Index">Ana Sayfaya Dön</a>
+</div>

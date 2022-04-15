@@ -1,0 +1,66 @@
+﻿@model IEnumerable<EF_Core_3.Models.Yazarlar>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Yazarlar</h1>
+
+<p>
+    <a asp-action="Create">Yeni Yazar Ekle</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ad Soyad
+            </th>
+            <th>
+                Cinsiyet
+            </th>
+            <th>
+                Doğum Tarihi
+            </th>
+            <th>
+                Telefon
+            </th>
+            <th>
+                Mail
+            </th>
+            <th>
+                Türler
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdSoyad)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cinsiyet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DogumTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Turler.Id)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Düzenle</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Detaylar</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Sil</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
