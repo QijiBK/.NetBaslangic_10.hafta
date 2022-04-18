@@ -70,3 +70,6 @@ C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\ref\EF_Code.dll
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\EF_Code.pdb
 C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\EF_Code.genruntimeconfig.cache
+C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\Razor\Views\Turlers\Index.cshtml.g.cs
+C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\Razor\Views\Turlers\Details.cshtml.g.cs
+C:\Users\Web ve Mobil Öğle\Desktop\Wissen.ASP\.NetBaslangic\EF_Code\obj\Debug\net5.0\Razor\Views\Turlers\Edit.cshtml.g.cs

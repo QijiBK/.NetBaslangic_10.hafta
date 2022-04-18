@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STs2XfjNe4hizVwjbYoj3p/5Tj01k3+WBoh8E3lQ3kCoWH3fswyXglf+n4BWFm5aa4+uM9feQ/8LCWVP0jOTgA==",
+  "dgSpecHash": "67Mh+5xDY4Tymx8n3AVtw+1RKb75rhOMkQ5pwXvgNwXh3V+NoHgLMiuKPgasPIF6bYWOilA+TjNzjsLfQAwPgg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\EF_Code.csproj",
+  "projectFilePath": "C:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\EF_Code.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Web ve Mobil Öğle\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

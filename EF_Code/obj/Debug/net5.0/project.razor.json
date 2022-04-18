@@ -15649,6 +15649,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Details.cshtml",
+      "TargetPath": "Views\\Turlers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Index.cshtml",
+      "TargetPath": "Views\\Turlers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Edit.cshtml",
+      "TargetPath": "Views\\Turlers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
