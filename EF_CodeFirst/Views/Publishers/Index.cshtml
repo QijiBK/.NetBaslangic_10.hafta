@@ -1,0 +1,37 @@
+@model List<EF_CodeFirst.Models.Publisher>
+@{
+    ViewData["Title"] = "Publisher";
+}
+<center >
+<h1>Publishers</h1>
+<hr>
+<a asp-action="Create" class="most-Button btn btn-primary">New Publisher</a>
+<a asp-action="GetDeletedPublisher" class="btn btn-primary">Show to Deleted Publisher</a>
+
+<hr>
+<table class="table table-sm table-dark w-50">
+    <thead>
+        <tr>
+            <th>Publisher ID</th>
+            <th>Publisher Name</th>
+            <th>Transaction</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var publisher in Model)
+        {
+            <tr class="">
+                <td>@publisher.PublisherId</td>
+                <td>@publisher.PublisherName</td>
+                
+                <td>
+                    <a class="button btn-sm btn-info" asp-action="Details" asp-route-id="@publisher.PublisherId">Details</a>
+                    <a class="button btn-sm btn-warning" asp-action="Edit" asp-route-id="@publisher.PublisherId">Edit</a>
+                    <a class="button btn-sm btn-danger" asp-action="Delete" asp-route-id="@publisher.PublisherId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</center>

@@ -1,0 +1,34 @@
+@model List<EF_CodeFirst.Models.Category>
+@{
+    ViewData["Title"] = "Deleted Category";
+}
+<center >
+<h1>Deleted Categories</h1>
+<hr>
+<a class="most-Button btn btn-primary" asp-action="Index">Back to Category Page</a>
+
+
+<hr>
+<table class="table table-sm table-dark w-50">
+    <thead>
+        <tr>
+            <th>Category ID</th>
+            <th>Book Category</th>
+            <th>Transanction</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cat in Model)
+        {
+            <tr class="">
+                <td>@cat.CategoryId</td>
+                <td>@cat.CategoryName</td>
+                <td>
+                    <a class="most-Button button btn-sm btn-info "asp-action="Restore" asp-route-id="@cat.CategoryId">Restore</a>
+
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</center>

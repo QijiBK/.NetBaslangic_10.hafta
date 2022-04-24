@@ -1,0 +1,23 @@
+@model Publisher
+@{
+    ViewData["Title"] = "Restore";
+}
+<h5>Restore this Publisher</h5>
+<hr>
+<div class="">
+Publisher ID:@Model.PublisherId
+</div>
+<div class="">
+Publisher Name:@Model.PublisherName
+</div>
+<div class="">
+Publisher City:@Model.PublisherCity
+</div>
+<div class="">
+Publisher Mail:@Model.PublisherMail
+</div>
+<form asp-action="Restore">
+    <input type="hidden" asp-for="PublisherId">
+    <input type="submit" class="most-Button btn btn-info" value="Restore">
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Publisher Page</a>
+</form>

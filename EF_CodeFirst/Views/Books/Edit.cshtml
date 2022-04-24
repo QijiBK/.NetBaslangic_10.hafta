@@ -1,0 +1,56 @@
+@model Book
+@{
+    ViewData["Title"] = "Edit";
+}
+<center>
+    <h1>Edit Book</h1>
+    <hr>
+
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="BookId">
+        <div class="row-design">
+            <label asp-for="BookName" class="control-label">Book Name:</label>
+            <input asp-for="BookName" type="text">
+        </div>
+        <br>
+        <div class="row-design">
+            <label asp-for="BookYearOfPublication" class="control-label">Publication Year:</label>
+            <input asp-for="BookYearOfPublication" type="text">
+        </div>
+        <br>
+        <div class="row-design">
+            <label asp-for="BookEditionNumber" class="control-label">Edition Number:</label>
+            <input asp-for="BookEditionNumber" type="text">
+        </div>
+        <br>
+        <div class="row-design">
+            <label asp-for="BookNumberOfPage" class="control-label">Page Number:</label>
+            <input asp-for="BookNumberOfPage" type="text">
+        </div>
+        <br>
+        <div class="row-design">
+            <label asp-for="BookQuantity" class="control-label">Quantity:</label>
+            <input asp-for="BookQuantity" type="text">
+        </div>
+        <br>
+        <div class="row-design">
+            <label asp-for="CategoryId" class="control-label">Category:</label>
+            <select asp-for="CategoryId" class="form-control" asp-items="ViewBag.CategoryId"></select>
+        </div>
+        <div class="row-design">
+            <label asp-for="AuthorId" class="control-label">Author Name:</label>
+            <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
+        </div>
+        <div class="row-design">
+            <label asp-for="PublisherId" class="control-label">Publisher Name:</label>
+            <select asp-for="PublisherId" class="form-control" asp-items="ViewBag.PublisherId"></select>
+        </div>
+
+
+        <input type="submit" value="Save Changes" class="most-Button btn btn-outline-success">
+
+    </form>
+    <br>
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Book Page</a>
+
+</center>

@@ -40,5 +40,29 @@ namespace EF_Code.Controllers
             return RedirectToAction("Index");
             // return View(tur);
         }
+        public IActionResult Delete(int id)
+        {
+            var silinecekKitapTuru = _context.Turlers.Find(id);
+            return View(silinecekKitapTuru);
+        }
+        [HttpPost, ActionName("DeleteConfirmed")]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var silinecekKitapTuru = _context.Turlers.Find(id);
+            _context.Turlers.Remove(silinecekKitapTuru);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Create (Turler tur)
+        {
+            _context.Add(tur);
+            _context.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

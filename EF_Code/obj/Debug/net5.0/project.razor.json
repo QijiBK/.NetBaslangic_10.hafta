@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\EF_Code.csproj",
+  "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\EF_Code.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,53 +15619,113 @@
   "RootNamespace": "EF_Code",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Yayinevleri\\Edit.cshtml",
+      "TargetPath": "Views\\Yayinevleri\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Kitaplar\\Create.cshtml",
+      "TargetPath": "Views\\Kitaplar\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Shared\\Error.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Kitaplar\\Details.cshtml",
+      "TargetPath": "Views\\Kitaplar\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Turlers\\Delete.cshtml",
+      "TargetPath": "Views\\Turlers\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Details.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Turlers\\Details.cshtml",
       "TargetPath": "Views\\Turlers\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Index.cshtml",
-      "TargetPath": "Views\\Turlers\\Index.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Yayinevleri\\Delete.cshtml",
+      "TargetPath": "Views\\Yayinevleri\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\Turlers\\Edit.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Turlers\\Edit.cshtml",
       "TargetPath": "Views\\Turlers\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Web ve Mobil Öğle\\Desktop\\Wissen.ASP\\.NetBaslangic\\EF_Code\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Turlers\\Create.cshtml",
+      "TargetPath": "Views\\Turlers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Yayinevleri\\Index.cshtml",
+      "TargetPath": "Views\\Yayinevleri\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Kitaplar\\Index.cshtml",
+      "TargetPath": "Views\\Kitaplar\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Yayinevleri\\Create.cshtml",
+      "TargetPath": "Views\\Yayinevleri\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Kitaplar\\Edit.cshtml",
+      "TargetPath": "Views\\Kitaplar\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Turlers\\Index.cshtml",
+      "TargetPath": "Views\\Turlers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Yayinevleri\\Details.cshtml",
+      "TargetPath": "Views\\Yayinevleri\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\korkk\\OneDrive\\Masaüstü\\.NetBaslangic_10.hafta\\EF_Code\\Views\\Kitaplar\\Delete.cshtml",
+      "TargetPath": "Views\\Kitaplar\\Delete.cshtml",
       "FileKind": "mvc"
     }
   ],

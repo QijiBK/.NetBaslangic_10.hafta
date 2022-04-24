@@ -1,0 +1,31 @@
+@model Book
+@{
+    ViewData["Title"] = "Create";
+}
+<center>
+<h1>Create a New Book</h1>
+<hr>
+<form asp-action="Create">
+            <input type="hidden" asp-for="BookId">
+            
+            <label asp-for="BookName" class="control-label">Book Name:</label> 
+            <input asp-for="BookName" type="text"><br>
+            <label asp-for="BookYearOfPublication" class="control-label">Book Publish Year:</label> 
+            <input asp-for="BookYearOfPublication" type="text"><br>
+            <label asp-for="BookEditionNumber" class="control-label">Edition Number:</label>
+            <input asp-for="BookEditionNumber" type="text"> <br>
+            <label asp-for="BookNumberOfPage" class="control-label">Page Number:</label>
+            <input asp-for="BookNumberOfPage" type="text"> <br>
+            <label asp-for="BookQuantity" class="control-label">Quantity:</label>
+            <input asp-for="BookQuantity" type="text"> <br>
+            <label asp-for="CategoryId" class="control-label">Category:</label>
+            <select asp-for="CategoryId" class ="form-control" asp-items="ViewBag.CategoryId"></select>
+            <label asp-for="AuthorId" class="control-label">Author Name:</label>
+            <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
+            <label asp-for="PublisherId" class="control-label">Publisher Name:</label>
+            <select asp-for="PublisherId" class="form-control" asp-items="ViewBag.PublisherId"></select>
+   
+            <input class="most-Button btn btn-outline-success my-2" type="submit" value="Create"> <br>
+            <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Author Page</a>
+    </form>
+</center>

@@ -1,0 +1,22 @@
+@model Author
+@{
+    ViewData["Title"] = "Create";
+}
+<center>
+<h1>Create a New Author</h1>
+<hr>
+<form asp-action="Create">
+            <input type="hidden" asp-for="AuthorId">
+            <label asp-for="AuthorName" class="control-label">Author Name:</label> 
+            <input asp-for="AuthorName" type="text"><br>
+            <label asp-for="AuthorSurname" class="control-label">Author Surname:</label> 
+            <input asp-for="AuthorSurname" type="text"><br>
+            <label asp-for="AuthorDateOfBirth" class="control-label">Author Birthday:</label>
+            <input asp-for="AuthorDateOfBirth" type="datetime-local"> <br>
+            
+            
+            
+            <input class="most-Button btn btn-outline-success my-2" type="submit" value="Create"> <br>
+            <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Author Page</a>
+    </form>
+</center>

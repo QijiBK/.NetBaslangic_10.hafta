@@ -1,0 +1,35 @@
+@model Book
+@{
+    ViewData["Title"] = "Restore";
+}
+<h5>Restore this Book</h5>
+<hr>
+<div class="">
+Book ID:@Model.BookId
+</div>
+<div class="">
+Book Name:@Model.BookName
+</div>
+<div class="">
+Edition Number:@Model.BookEditionNumber
+</div>
+<div class="">
+Page Number:@Model.BookNumberOfPage
+</div>
+<div class="">
+Quantity:@Model.BookQuantity
+</div>
+<div class="">
+Category:@Model.Category.CategoryName
+</div>
+<div class="">
+Authors:@Model.Author.AuthorName
+</div>
+<div class="">
+Publisher:@Model.Publisher.PublisherName
+</div>
+<form asp-action="Restore">
+    <input type="hidden" asp-for="BookId">
+    <input type="submit" class="most-Button btn btn-info" value="Restore">
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Book Page</a>
+</form>

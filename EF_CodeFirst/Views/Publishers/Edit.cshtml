@@ -1,0 +1,36 @@
+@model Publisher
+@{
+    ViewData["Title"] = "Edit";
+}
+<center>
+<h1>Edit Publisher</h1>
+<hr>
+
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="PublisherId" >
+        <div class="row-design">
+            <label asp-for="PublisherName" class="control-label">Publisher Name:</label>
+            <input asp-for="PublisherName" type="text">
+        </div>
+            
+            <br>
+            <div class="row-design">
+            <label asp-for="PublisherCity" class="control-label">Publisher City:</label>
+            <input asp-for="PublisherCity" type="text">   
+            </div>
+            <br>
+            <div class="row-design">
+            <label asp-for="PublisherMail" class="control-label">Publisher Mail:</label>
+            <input asp-for="PublisherMail" type="text">   
+            </div>
+            <br>
+            
+            
+            <input type="submit" value="Save Changes" class="most-Button btn btn-outline-success">
+            
+    </form>
+    <br>
+            <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Publisher Page</a>
+
+</center>
+

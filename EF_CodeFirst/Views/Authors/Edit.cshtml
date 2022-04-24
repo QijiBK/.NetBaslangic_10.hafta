@@ -1,0 +1,38 @@
+@model Author
+@{
+    ViewData["Title"] = "Edit";
+}
+<center>
+    <h1>Edit Author</h1>
+    <hr>
+
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="AuthorId">
+        <div class="row-design">
+            <label asp-for="AuthorName" class="control-label">Author Name:</label>
+            <input asp-for="AuthorName" type="text">
+        </div>
+
+        <br>
+        <div class="row-design">
+            <label asp-for="AuthorSurname" class="control-label">Author Surname:</label>
+            <input asp-for="AuthorSurname" type="text">
+        </div>
+
+        <br>
+        <div class="row-design">
+            <label asp-for="AuthorDateOfBirth" class="control-label">Author Birthday:</label>
+            <input asp-for="AuthorDateOfBirth" type="datetime-local">
+        </div>
+
+        <br>
+
+
+
+        <input type="submit" value="Save Changes" class="most-Button btn btn-outline-success">
+
+    </form>
+    <br>
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Author Page</a>
+
+</center>

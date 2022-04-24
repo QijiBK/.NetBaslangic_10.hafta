@@ -1,0 +1,23 @@
+@model Author
+@{
+    ViewData["Title"] = "Delete";
+}
+<h5>Delete Author</h5>
+<hr>
+<div class="">
+Author ID:@Model.AuthorId
+</div>
+<div class="">
+Author Name:@Model.AuthorName
+</div>
+<div class="">
+Author Surname:@Model.AuthorSurname
+</div>
+<div>
+Author Birthday:@Model.AuthorDateOfBirth
+</div>
+<form asp-action="Delete">
+    <input type="hidden" asp-for="AuthorId">
+    <input type="submit" class="most-Button btn btn-danger" value="Delete">
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Authors Page</a>
+</form>

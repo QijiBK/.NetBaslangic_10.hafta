@@ -1,0 +1,31 @@
+@model Category
+@{
+    ViewData["Title"] = "Edit";
+}
+<center>
+<h1>Edit Category</h1>
+<hr>
+
+    <form asp-action="Edit">
+        <input type="hidden" asp-for="CategoryId" >
+        <div class="row-design">
+            <label asp-for="CategoryName" class="control-label">Category Name:</label>
+            <input asp-for="CategoryName" type="text">
+        </div>
+            
+            <br>
+            <div class="row-design">
+            <label asp-for="CategoryDescription" class="control-label">Category Description:</label>
+            <input asp-for="CategoryDescription" type="text">   
+            </div>
+            <br>
+            
+            
+            <input type="submit" value="Save Changes" class="most-Button btn btn-outline-success">
+            
+    </form>
+    <br>
+            <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Category Page</a>
+
+</center>
+

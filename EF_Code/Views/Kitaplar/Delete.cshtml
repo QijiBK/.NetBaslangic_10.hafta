@@ -1,0 +1,50 @@
+@model EF_Code.Models.Kitaplar
+@{
+    ViewData["Title"] = "Yeni Kitap Oluşturma";
+}
+<h1 class="display-3">Kitap Silme</h1>
+<hr>
+<div class="row">
+
+    <div class="col-sm-3 border border-primary">
+        Kitap Ad:
+    </div>
+    <div class="col-sm-3 border border-success">
+        @Model.Ad
+    </div>
+    <div class="col-sm-3 border border-primary">
+        Sayfa Sayısı:
+    </div>
+    <div class="col-sm-3 border border-success">
+        @Model.SayfaSayisi
+    </div>
+    <div class="col-sm-3 border border-primary">
+        Kitap Stok:
+    </div>
+    <div class="col-sm-3 border border-success">
+        @Model.Stok
+    </div>
+    <div class="col-sm-3 border border-primary">
+        Tür:
+    </div>
+     <div class="col-sm-3 border border-success">
+        @Model.Turler.TurAd
+    </div> 
+    <div class="col-sm-3 border border-primary">
+        Yayınevleri:
+    </div>
+    <div class="col-sm-3 border border-success">
+        @Model.YayinEvleri.Ad
+    </div>
+    <div class="col-sm-3 border border-primary">
+        Yazar:
+    </div>
+    <div class="col-sm-3 border border-success">
+        @Model.Yazarlar.AdSoyad
+    </div>
+    <form asp-action="DeleteConfirmed">
+        <input type="hidden" asp-for="Isbn">
+        <input type="submit" value="Sil" class="btn btn-danger">
+        <a class="btn btn-primary" asp-action="Index">Kitaplar'a Geri Dön</a>
+    </form>
+</div>

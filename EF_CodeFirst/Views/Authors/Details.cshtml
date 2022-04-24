@@ -1,0 +1,40 @@
+@model EF_CodeFirst.Models.Author
+@{
+    ViewData["Title"] = "Details";
+}
+
+<center>
+    <h1>Details</h1>
+<hr>
+    <div class="row bg-light">
+    <div class="col-sm-6 my-2">
+        AuthorId:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.AuthorId
+    </div>
+   <br>
+    <div class="col-sm-6 my-2">
+        Author Name:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.AuthorName
+    </div>
+    
+    <div class="col-sm-6 my-2">
+        Author Surname:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.AuthorSurname
+    </div>
+    <div class="col-sm-6 my-2">
+        Author Birthday:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.AuthorDateOfBirth
+    </div>
+    
+</div>
+<a class="most-Button btn btn-outline-primary mt-3" asp-action="Index">Back to Category Page</a>
+
+</center>

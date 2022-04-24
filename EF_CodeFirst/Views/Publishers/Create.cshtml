@@ -1,0 +1,20 @@
+@model Publisher
+@{
+    ViewData["Title"] = "Create";
+}
+<center>
+<h1>Create a New Publisher</h1>
+<hr>
+<form asp-action="Create">
+        <input type="hidden" asp-for="PublisherId">
+            <label asp-for="PublisherName" class="control-label">Publisher Name:</label>
+            <input asp-for="PublisherName" type="text"> <br>
+            <label asp-for="PublisherCity" class="control-label">Publisher City:</label>
+            <input asp-for="PublisherCity" type="text"> <br>
+            <label asp-for="PublisherMail" class="control-label">Publisher Mail:</label>
+            <input asp-for="PublisherMail" type="text"> <br>
+            
+            <input class="most-Button btn btn-outline-success my-2" type="submit" value="Create"> <br>
+            <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Category Page</a>
+    </form>
+</center>

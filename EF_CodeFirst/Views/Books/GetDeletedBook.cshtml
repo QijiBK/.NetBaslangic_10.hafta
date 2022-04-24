@@ -1,0 +1,33 @@
+@model List<EF_CodeFirst.Models.Book>
+@{
+    ViewData["Title"] = "Deleted Books";
+}
+<center >
+<h1>Deleted Books</h1>
+<hr>
+<a class="most-Button btn btn-primary" asp-action="Index">Back to Books Page</a>
+
+
+<hr>
+<table class="table table-sm table-dark w-50">
+    <thead>
+        <tr>
+            <th>Book ID</th>
+            <th>Book Name</th>
+            <th>Transanction</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var books in Model)
+        {
+            <tr class="">
+                <td>@books.BookId</td>
+                <td>@books.BookName</td>
+                <td>
+                    <a class="most-Button button btn-sm btn-info "asp-action="Restore" asp-route-id="@books.BookId">Restore</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</center>

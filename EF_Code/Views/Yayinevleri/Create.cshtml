@@ -1,0 +1,31 @@
+@model EF_Code.Models.Yayinevleri
+@{
+    ViewData["Title"] = "Yayınevi Oluşturma";
+}
+<h1 class="display-3">Yayınevi Yaratma</h1>
+<hr>
+<div class="row">
+    <div class="col-sm-6">
+        <form asp-action="Create">
+            <div class="form-group">
+                <div class="row col-sm-6">
+                    <label asp-for="Ad" class="control-label">Yayınevi Ad</label>
+                    <input type="text" asp-for="Ad">
+                </div>
+                <div class="row col-sm-6">
+                    <label asp-for="Adres" class="control-label">Yayınevi Adres</label>
+                    <input type="text" asp-for="Adres">
+                </div>
+                <div class="row col-sm-6">
+                    <label asp-for="Tel" class="control-label">Yayınevi Telefon</label>
+                    <input type="text" asp-for="Tel">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Değişiklikleri Kaydet" class="btn btn-outline-success">
+            </div>
+        </form>
+    </div>
+</div>
+<a class="btn btn-primary" asp-action="Index">Yayınevlerine Geri Dön</a>

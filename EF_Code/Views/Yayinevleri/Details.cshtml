@@ -1,0 +1,39 @@
+@model EF_Code.Models.Yayinevleri
+@{
+    ViewData["Title"] = "Details";
+}
+<h1 class="display-5">Kitap Tür Detay</h1>
+<div class="row">
+    <div class="col-sm-3">
+        YayınEvi Id:
+    </div>
+    <div class="col-sm-5">
+        @Model.Id
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        Yayınevi Ad:
+    </div>
+    <div class="col-sm-5">
+        @Model.Ad
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-3">
+        Yayınevi Adres:
+    </div>
+    <div class="col-sm-5">
+        @Model.Adres
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-3">
+        Yayınevi Telefon:
+    </div>
+    <div class="col-sm-5">
+        @Model.Tel
+    </div>
+</div>
+<a class="btn btn-primary" asp-action="Index">Kitap Türlerine Dön</a>

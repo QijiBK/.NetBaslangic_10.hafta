@@ -1,0 +1,34 @@
+@model EF_CodeFirst.Models.Category
+@{
+    ViewData["Title"] = "Details";
+}
+
+<center>
+    <h1>Details</h1>
+<hr>
+    <div class="row bg-light">
+    <div class="col-sm-6 my-2">
+        CategoryId:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.CategoryId
+    </div>
+   <br>
+    <div class="col-sm-6 my-2">
+        Category Name:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.CategoryName
+    </div>
+    
+    <div class="col-sm-6 my-2">
+        Category Description:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.CategoryDescription
+    </div>
+    
+</div>
+<a class="most-Button btn btn-outline-primary mt-3" asp-action="Index">Back to Category Page</a>
+
+</center>

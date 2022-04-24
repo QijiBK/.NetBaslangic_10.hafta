@@ -1,0 +1,70 @@
+@model EF_CodeFirst.Models.Book
+@{
+    ViewData["Title"] = "Details";
+}
+
+<center>
+    <h1>Details</h1>
+<hr>
+    <div class="row bg-light">
+    <div class="col-sm-6 my-2">
+        BookId:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookId
+    </div>
+   <br>
+    <div class="col-sm-6 my-2">
+        Book Name:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookName
+    </div>
+    
+    <div class="col-sm-6 my-2">
+        Book Year of Publish:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookYearOfPublication
+    </div>
+    <div class="col-sm-6 my-2">
+        Book Edition Number:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookEditionNumber
+    </div>
+    <div class="col-sm-6 my-2">
+        Book Page Number:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookNumberOfPage
+    </div>
+    <div class="col-sm-6 my-2">
+        Book Quantity:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.BookQuantity
+    </div>
+    <div class="col-sm-6 my-2">
+        Category:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.Category.CategoryName
+    </div>
+    <div class="col-sm-6 my-2">
+        Author:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.Author.AuthorName  @Model.Author.AuthorSurname
+    </div>
+    <div class="col-sm-6 my-2">
+        Publisher:
+    </div>
+    <div class="col-sm-6 my-2">
+        @Model.Publisher.PublisherName
+    </div>
+    
+</div>
+<a class="most-Button btn btn-outline-primary mt-3" asp-action="Index">Back to Books Page</a>
+
+</center>

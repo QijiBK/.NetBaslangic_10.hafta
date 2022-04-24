@@ -1,0 +1,20 @@
+@model Category
+@{
+    ViewData["Title"] = "Restore";
+}
+<h5>Restore this Category</h5>
+<hr>
+<div class="">
+Category ID:@Model.CategoryId
+</div>
+<div class="">
+Category Name:@Model.CategoryName
+</div>
+<div class="">
+Category Description:@Model.CategoryDescription
+</div>
+<form asp-action="Restore">
+    <input type="hidden" asp-for="CategoryId">
+    <input type="submit" class="most-Button btn btn-info" value="Restore">
+    <a class="most-Button btn btn-outline-primary" asp-action="Index">Back to Category Page</a>
+</form>
