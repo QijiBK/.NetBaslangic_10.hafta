@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4e30895a-65ac-47c8-81c3-9668fbaa33ce": {
+      "ProjectGuid": "4e30895a-65ac-47c8-81c3-9668fbaa33ce",
+      "DisplayName": "EF_2504.MVC",
+      "ColorIndex": 0
+    },
+    "a220f4ca-84db-46a8-b00d-65279f005d83": {
+      "ProjectGuid": "a220f4ca-84db-46a8-b00d-65279f005d83",
+      "DisplayName": "EF_2504.DAL",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

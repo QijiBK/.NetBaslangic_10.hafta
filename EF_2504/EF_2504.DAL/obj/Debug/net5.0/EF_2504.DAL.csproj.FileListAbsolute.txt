@@ -1,0 +1,15 @@
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.deps.json
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.runtimeconfig.json
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.runtimeconfig.dev.json
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.dll
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\ref\EF_2504.DAL.dll
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\bin\Debug\net5.0\EF_2504.DAL.pdb
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.csproj.AssemblyReference.cache
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.AssemblyInfoInputs.cache
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.AssemblyInfo.cs
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.csproj.CoreCompileInputs.cache
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.dll
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\ref\EF_2504.DAL.dll
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.pdb
+C:\Users\korkk\OneDrive\Masaüstü\.NetBaslangic_10.hafta\EF_2504\EF_2504.DAL\obj\Debug\net5.0\EF_2504.DAL.genruntimeconfig.cache
