@@ -7,6 +7,11 @@
         public string BookDetailCity { get; set; }
         public string BookDetailCountry { get; set; }
         public int BookDetailYear { get; set; }
+        //FK
+        public int BookId { get; set; }
+        //NP
+        public Book Book { get; set; }
+
 
     }
 }

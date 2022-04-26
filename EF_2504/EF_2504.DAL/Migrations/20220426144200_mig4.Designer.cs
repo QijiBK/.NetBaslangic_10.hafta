@@ -4,14 +4,16 @@ using EF_2504.DAL.Concrete.ADO.EF;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EF_2504.DAL.Migrations
 {
     [DbContext(typeof(BookAppDbContext))]
-    partial class BookAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220426144200_mig4")]
+    partial class mig4
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,7 +31,7 @@ namespace EF_2504.DAL.Migrations
                     b.Property<DateTime>("AuthorCreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 4, 26, 19, 23, 38, 629, DateTimeKind.Local).AddTicks(3449));
+                        .HasDefaultValue(new DateTime(2022, 4, 26, 17, 42, 0, 178, DateTimeKind.Local).AddTicks(5792));
 
                     b.Property<string>("AuthorFirstName")
                         .IsRequired()
@@ -77,7 +79,7 @@ namespace EF_2504.DAL.Migrations
                     b.Property<DateTime>("BookCreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2022, 4, 26, 19, 23, 38, 638, DateTimeKind.Local).AddTicks(4180));
+                        .HasDefaultValue(new DateTime(2022, 4, 26, 17, 42, 0, 189, DateTimeKind.Local).AddTicks(6400));
 
                     b.Property<string>("BookImageUrl")
                         .HasColumnType("nvarchar(max)");
@@ -91,12 +93,7 @@ namespace EF_2504.DAL.Migrations
                         .HasColumnType("decimal(18,2)")
                         .HasDefaultValue(0m);
 
-                    b.Property<int?>("CategoryId")
-                        .HasColumnType("int");
-
                     b.HasKey("BookId");
-
-                    b.HasIndex("CategoryId");
 
                     b.ToTable("Books");
 
@@ -127,48 +124,6 @@ namespace EF_2504.DAL.Migrations
                         });
                 });
 
-            modelBuilder.Entity("EF_2504.DAL.Entities.BookAuthor", b =>
-                {
-                    b.Property<int>("BookAuthorId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<int>("AuthorId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
-                    b.HasKey("BookAuthorId");
-
-                    b.HasIndex("AuthorId");
-
-                    b.HasIndex("BookId");
-
-                    b.ToTable("BookAuthor");
-
-                    b.HasData(
-                        new
-                        {
-                            BookAuthorId = 1,
-                            AuthorId = 1,
-                            BookId = 1
-                        },
-                        new
-                        {
-                            BookAuthorId = 2,
-                            AuthorId = 2,
-                            BookId = 2
-                        },
-                        new
-                        {
-                            BookAuthorId = 3,
-                            AuthorId = 3,
-                            BookId = 3
-                        });
-                });
-
             modelBuilder.Entity("EF_2504.DAL.Entities.BookDetail", b =>
                 {
                     b.Property<int>("BookDetailId")
@@ -192,13 +147,7 @@ namespace EF_2504.DAL.Migrations
                         .HasColumnType("int")
                         .HasDefaultValue(2022);
 
-                    b.Property<int>("BookId")
-                        .HasColumnType("int");
-
                     b.HasKey("BookDetailId");
-
-                    b.HasIndex("BookId")
-                        .IsUnique();
 
                     b.ToTable("BookDetails");
 
@@ -207,22 +156,19 @@ namespace EF_2504.DAL.Migrations
                         {
                             BookDetailId = 1,
                             BookDetailCity = "Istanbul",
-                            BookDetailYear = 0,
-                            BookId = 1
+                            BookDetailYear = 0
                         },
                         new
                         {
                             BookDetailId = 2,
                             BookDetailCity = "Ankara",
-                            BookDetailYear = 0,
-                            BookId = 2
+                            BookDetailYear = 0
                         },
                         new
                         {
                             BookDetailId = 3,
                             BookDetailCity = "Izmir",
-                            BookDetailYear = 0,
-                            BookId = 3
+                            BookDetailYear = 0
                         });
                 });
 
@@ -263,63 +209,6 @@ namespace EF_2504.DAL.Migrations
                             CategoryDescription = "Bilişim türü kitaplar",
                             CategoryName = "Bilişim"
                         });
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.Book", b =>
-                {
-                    b.HasOne("EF_2504.DAL.Entities.Category", "Category")
-                        .WithMany("Books")
-                        .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.SetNull);
-
-                    b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.BookAuthor", b =>
-                {
-                    b.HasOne("EF_2504.DAL.Entities.Author", "Author")
-                        .WithMany("BookAuthor")
-                        .HasForeignKey("AuthorId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EF_2504.DAL.Entities.Book", "Book")
-                        .WithMany("BookAuthor")
-                        .HasForeignKey("BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Author");
-
-                    b.Navigation("Book");
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.BookDetail", b =>
-                {
-                    b.HasOne("EF_2504.DAL.Entities.Book", "Book")
-                        .WithOne("BookDetail")
-                        .HasForeignKey("EF_2504.DAL.Entities.BookDetail", "BookId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Book");
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.Author", b =>
-                {
-                    b.Navigation("BookAuthor");
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.Book", b =>
-                {
-                    b.Navigation("BookAuthor");
-
-                    b.Navigation("BookDetail");
-                });
-
-            modelBuilder.Entity("EF_2504.DAL.Entities.Category", b =>
-                {
-                    b.Navigation("Books");
                 });
 #pragma warning restore 612, 618
         }

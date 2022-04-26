@@ -15,6 +15,7 @@ namespace EF_2504.DAL.Concrete.ADO.EF
         public DbSet<Author> Authors { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<BookDetail> BookDetails { get; set; }
+        public DbSet<BookAuthor> BookAuthors { get; set; } //Dikkat
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -26,7 +27,11 @@ namespace EF_2504.DAL.Concrete.ADO.EF
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new CategoryConfig());
+            //modelBuilder.ApplyConfiguration(new CategoryConfig());
+            //modelBuilder.ApplyConfiguration(new BookDetailConfig());
+            //modelBuilder.ApplyConfiguration(new BookConfig());
+            //modelBuilder.ApplyConfiguration(new AuthorConfig());
+            modelBuilder.ApplyConfigurationsFromAssembly(typeof(BookConfig).Assembly);
         }
     }
 }
